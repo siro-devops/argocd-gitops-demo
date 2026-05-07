@@ -12,6 +12,17 @@ No kubectl apply. No manual deployments. Git is the deployment mechanism.
 3. ArgoCD applies it to the cluster automatically
 4. If anyone manually changes the cluster, ArgoCD corrects it back (self-healing)
 
+## Evidence
+
+### ArgoCD UI — App Synced and Healthy
+![ArgoCD Synced](screenshots/argocd-synced.png)
+
+### 4 Pods Running after Git commit
+![4 Pods Running](screenshots/pods-running.png)
+
+### Self-healing — deleted pod restored automatically
+![Self Healing](screenshots/self-healing.png)
+
 ## What was proved
 
 | Test | Result |
@@ -23,6 +34,7 @@ No kubectl apply. No manual deployments. Git is the deployment mechanism.
 ## Project structure
 
 apps/nginx/deployment.yaml -- Nginx deployment and service manifest
+screenshots/ -- Evidence from live experiments
 
 ## Key concepts demonstrated
 
