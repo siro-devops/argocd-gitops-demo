@@ -1,6 +1,7 @@
-# GitOps with ArgoCD — Portfolio Project
+# GitOps with ArgoCD 
+Portfolio Project
 
-Continuous delivery using GitOps — the Git repo is the single source of truth.
+Continuous delivery using GitOps, the Git repo is the single source of truth.
 ArgoCD watches this repo and automatically syncs the cluster to match it.
 No kubectl apply. No manual deployments. Git is the deployment mechanism.
 
